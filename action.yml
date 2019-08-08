@@ -1,10 +1,18 @@
-name: 'Node 12 Template Action'
-description: 'Get started with Node actions'
-author: 'GitHub'
-inputs: 
-  myInput:
-    description: 'Input to use'
-    default: 'world'
+name: 'Glo Create Card'
+description: 'GitHub action to create a card in a Glo Board'
+branding:
+  color: 'blue'
+  icon: 'credit-card'
+inputs:
+  authToken:
+    description: Auth token for user
+    required: true
+  cards:
+    description: Array of { cardId, boardId } objects
+    required: true
+  column:
+    description: Name of column to move cards to
+    required: true
 runs:
   using: 'node12'
   main: 'lib/main.js'
