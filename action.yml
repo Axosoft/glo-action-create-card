@@ -1,4 +1,4 @@
-name: 'Glo Create Card'
+name: 'Glo Boards Create Card'
 description: 'GitHub action to create a card in a Glo Board'
 branding:
   color: 'blue'
