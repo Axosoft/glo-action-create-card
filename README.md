@@ -15,7 +15,7 @@ The `name` input is the name of the card.
 The `column` input is the name of a column that already exists in the Glo Board.
 The `description` input is the description for the card (optional).
 The `assignee` input is the username of a user to assign to the card (optional).
-The `label` input is the name of a lable to add to the card (optional).
+The `label` input is the name of a label to add to the card (optional).
 
 ## Examples
 Add a step in your workflow file to perform this action:
